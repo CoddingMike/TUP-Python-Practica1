@@ -9,7 +9,8 @@ y en el mismo orden.
 lista = ["casa", "perro", "pato", "gato"]
 
 # COMPLETAR - INICIO
-
+tupla = ("casa", "perro", "pato", "gato")
+print(*tupla)
 # COMPLETAR - FIN
 
 assert tupla == ("casa", "perro", "pato", "gato")
@@ -23,7 +24,8 @@ y en el mismo orden.
 tupla = "casa", "perro", "pato", "gato", "tenedor"
 
 # COMPLETAR - INICIO
-
+lista = ["casa", "perro", "pato", "gato", "tenedor"]
+print(*lista)
 # COMPLETAR - FIN
 
 assert lista == ["casa", "perro", "pato", "gato", "tenedor"]
@@ -36,7 +38,8 @@ Desempaquetar la siguiente tupla en las variables a, b y c
 tupla = ("primer", 25, [1, 2, 3])
 
 # COMPLETAR - INICIO
-
+a = "primer"; b = 25; c = [1,2,3]
+print(a, b, c)
 # COMPLETAR - FIN
 
 assert a == "primer" and b == 25 and c == [1, 2, 3]
@@ -49,7 +52,9 @@ Desempaquetar la siguiente tupla y luego sumar sus valores
 tupla = (87, 98, 35, 67, 4, 9)
 
 # COMPLETAR - INICIO
-
+a = 87; b = 98; c = 35; d = 67; e = 4; f = 9
+total = a + b + c + d + e + f
+print(total)
 # COMPLETAR - FIN
 
 assert total == 300
@@ -63,7 +68,9 @@ Restricción: Utilizar f-Strings.
 lista = ["esta", "mañana", "sali", "a", "correr"]
 
 # COMPLETAR - INICIO
-
+a = "esta"; b = "mañana"; c = "sali"; d = "a"; e = "correr"
+string_concatenado = f'{a} {b} {c} {d} {e}'
+print(string_concatenado)
 # COMPLETAR - FIN
 
 assert string_concatenado == "esta mañana sali a correr"
@@ -77,7 +84,8 @@ Restricción: Utilizar desempaquetado con comodines
 tupla = (73, 45, 344, 3434, 2)
 
 # COMPLETAR - INICIO
-
+primer = 73; resto = [45, 344, 3434, 2]
+print(primer)
 # COMPLETAR - FIN
 
 assert primer == 73
@@ -91,7 +99,9 @@ Restricción: Utilizar desempaquetado con comodines
 lista = [73, 45, 344, 3434, 2]
 
 # COMPLETAR - INICIO
-
+a = 73; b = 2; resto = [45, 344, 3434]
+suma = a + b
+print(suma)
 # COMPLETAR - FIN
 
 assert suma == 75
@@ -106,7 +116,9 @@ Restricción: Utilizar desempaquetado con comodines y f-Strings
 tupla = ("anoche", "fui", "a", "la", "fiesta", "pero", "no", "pude", "entrar")
 
 # COMPLETAR - INICIO
-
+a = "anoche"; b = "fui"; c = "a"; d = "la"; e = "fiesta"; resto = ["pero", "no", "pude", "entrar"]
+string_concatenado = f'{a} {b} {c} {d} {e}'
+print(string_concatenado)
 # COMPLETAR - FIN
 
 assert string_concatenado == "anoche fui a la fiesta"

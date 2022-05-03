@@ -69,8 +69,8 @@ Restricción: Usar el operador módulo.
 numero_incalculable = 2 ** 54 - 1
 
 # COMPLETAR - INICIO
-es_divisible_por_siete = 7 % numero_incalculable
+es_divisible_por_siete = numero_incalculable%7
 print (es_divisible_por_siete)
 # COMPLETAR - FIN
 
-assert es_divisible_por_siete
+assert es_divisible_por_siete == 0
